@@ -88,6 +88,7 @@
             <img src="img/vimeo.png" alt="vimeo" />
             <img src="img/flickr.png" alt="flickr" />
             <img src="img/rss.png" alt="rss" />
+
           </p>
         </aside>
       </section>
@@ -115,7 +116,7 @@
           <h1>ILS PARLENT DE NOUS</h1>
           <div id="listes">
             <ul>
-              <li><a href="#">1</a></li>
+              <li><a href="https://bloglaromanesque.herokuapp.com/index.php">notre blog</a></li>
               <li><a href="#">2</a></li>
               <li><a href="#">3</a></li>
               <li><a href="#">4</a></li>
