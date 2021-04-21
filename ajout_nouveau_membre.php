@@ -29,7 +29,9 @@
 
                     try
                     {
-                        $bdd = new PDO('mysql:host=localhost;dbname=laromanesque;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                        // $bdd = new PDO('mysql:host=localhost;dbname=laromanesque;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                        $bdd = new PDO('mysql:host=eu-cdbr-west-01.cleardb.com;dbname=heroku_ba0bff646bb9afe;charset=utf8', 'b8de40cd4aec92', '2fcf7585', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                        
                     }
                     catch (Exception $e)
                     {
